@@ -1,0 +1,176 @@
+.Block_Body {
+    display: flex;
+    flex-direction: row;
+    background-color: #FAFAFB;
+    ;
+    padding: 60px 0px;
+    margin: 20px 0px;
+}
+
+.Block_Image {
+    width: 50%;
+}
+
+.Block_Img {
+    width: 508px;
+    height: 508px;
+    background-image: url('../../Downloads/blocks.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.Block_Content {
+    width: 50%;
+    padding: 100px 0px;
+    padding-right: 10%;
+}
+
+.Block_Heading {
+    color: #36BBC2;
+    text-transform: uppercase;
+}
+
+.Block_Para {
+    color: #47576A;
+    line-height: 26px;
+    margin-top: 18px;
+}
+
+.Block_Btn {
+    /* position: relative; */
+    margin-top: 12px;
+}
+
+.Block_Btn button {
+    width: 200px;
+    height: 43px;
+    cursor: pointer;
+    font-size: 15px;
+    background: transparent;
+    text-align: center;
+    border: 1px solid #36BBC2;
+    border-radius: 22px;
+    margin-top: 12px;
+    color: #000000;
+    transition: color 0.2s;
+}
+
+.Block_Btn button:hover {
+    color: #FAFAFB;
+}
+
+.Block_Btn .btn span{
+    position: relative;
+    z-index: 1;
+}
+
+.Block_Btn .btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.Block_Btn .btn::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: var(--x);
+    bottom: var(---y);
+    margin-left: -60px;
+    margin-top: 60px;
+    background-color: #36BBC2;
+    border-radius: 50%;
+    transition:  width 0.2s, height 0.2s;
+    transform: translate(-50%, -50%);
+}
+
+.Block_Btn .btn:hover::before {
+    width: 580px;
+    height: 550px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .Block_Img {
+        width: 460px;
+        height: 460px;
+        background-size: cover;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .Block_Content {
+        padding-right: 5%;
+    }
+}
+
+
+@media screen and (min-width: 593px) and (max-width: 1023px) {
+    .Block_Body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Block_Image {
+        width: 100%;
+        margin: auto;
+    }
+
+    .Block_Img {
+        width: 380px;
+        height: 380px;
+        background-size: cover;
+        margin: auto;
+    }
+
+    .Block_Content {
+        width: 100%;
+        padding: 0px 8%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .Block_Heading {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 592px) {
+    .Block_Body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Block_Image {
+        width: 100%;
+        margin: auto;
+    }
+
+    .Block_Img {
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        margin: auto;
+    }
+
+    .Block_Content {
+        width: 90%;
+        margin: auto;
+        padding: 15px 10px;
+    }
+
+    .Block_Heading {
+        font-size: 14px;
+    }
+
+    .Block_Para {
+        font-size: 14px;
+    }
+
+    .Block_Btn button{
+        width: 170px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,178 @@
+.Service_Background {
+    background-image: url('../../Downloads/servicebackground.png');
+    background-position: center;
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+
+.Service_Body {
+    width: 80%;
+    height: 700px;
+    text-align: center;
+    /* margin: auto; */
+    margin: 30px auto;
+    padding: 35px 0px;
+}
+
+.Service_Head {
+    color: #000545;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Service_Metablock {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Service_Nft {
+    width: 350px;
+    height: 210px;
+    background-color: #FFFAFA;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgb(78, 92, 95);
+    padding: 30px 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Nft_Heading , .Meta_Heading , .Blocks_Headings , .Custom_Heading{
+    color: #000545;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.Nft_Para , .Meta_Para , .Blocks_Paras , .Custom_Para{
+    color: #47576A;
+    line-height: 24px;
+    margin-top: 10px;
+} 
+
+.Service_Metablock {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.Service_Meta {
+    width: 350px;
+    height: 210px;
+    background-color: #FFFAFA;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgb(78, 92, 95);
+    padding: 30px 10px;
+}
+
+.Service_Block {
+    width: 350px;
+    height: 210px;
+    background-color: #FFFAFA;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgb(78, 92, 95);
+    padding: 30px 10px;
+}
+
+.Service_Custom {
+    width: 350px;
+    height: 210px;
+    background-color: #FFFAFA;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgb(78, 92, 95);
+    padding: 30px 10px;
+    margin: auto;
+    margin-top: -50px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .Service_Body {
+        width: 90%;
+    }
+
+    .Service_Metablock {
+        width: 100%;
+    }
+
+    .Service_Nft , .Service_Meta , .Service_Block , .Service_Custom{
+        width: 31%;
+        height: 210px;
+    } 
+}
+
+
+@media screen and (min-width: 593px) and (max-width: 1023px) {
+    .Service_Background {
+        width: 100%;
+        background-size: 200%;
+    }
+
+    .Service_Body {
+        width: 90%;
+        height: 770px;
+        margin-bottom: 0px;
+    }
+
+    .Service_Nftbox {
+        margin-top: 30px;
+    }
+
+    .Service_Metablock {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .Service_Nft , .Service_Meta , .Service_Block , .Service_Custom{
+        width: 100%;
+        height: 130px;
+        padding: 30px 5px;
+        margin-top: 25px;
+    }  
+    
+    .Nft_Heading , .Meta_Heading , .Blocks_Headings , .Custom_Heading {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .Nft_Para , .Meta_Para , .Blocks_Paras , .Custom_Para {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 592px) {
+    .Service_Body {
+        width: 90%;
+        height: 100%;
+    }
+
+    .Service_Head {
+        font-size: 14px;
+    }
+
+    .Service_Metablock {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .Service_Nft , .Service_Meta , .Service_Block , .Service_Custom {
+        width: 100%;
+        height: 150px;
+        padding: 5px 3%;
+        margin-top: 20px;
+    }
+
+    .Nft_Heading , .Meta_Heading , .Blocks_Headings , .Custom_Heading {
+        font-size: 14px;
+    }
+
+    .Nft_Para , .Meta_Para , .Blocks_Paras , .Custom_Para {
+        font-size: 14px;
+    }
+}

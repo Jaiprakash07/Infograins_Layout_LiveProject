@@ -1,0 +1,274 @@
+.Herosection_Hyderabad {
+    position: relative;
+    width: 100%;
+    height: 613px;
+    background-color: black;
+}
+
+.Herosec_Backimg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background-image: url('../../Downloads/artwork.png');
+    background-size: cover;
+    opacity: 0.6;
+    padding-top: 80px;
+}
+
+.Herosec_Bothcontent {
+    position: absolute;
+    top: 80px; 
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Herosec_Content {
+    width: 49%;
+    padding: 10px;
+}
+
+.Content_Web {
+    text-transform: uppercase;
+    color: #36BBC2;
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+
+.Content_Blockchain {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 8%;
+    /* padding-right: 150px; */
+}
+
+.Content_Webpara {
+    color: #FFFFFF;
+    line-height: 24px;
+    padding-left: 15px;
+    padding-right: 28px;
+    margin-top: 20px;
+}
+
+.Herosec_Form {
+    width: 380px;
+    height: 613px;
+    padding: 10px;
+}
+
+.Form_Head {
+    width: 100%;
+    height: 70%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 25px;
+    margin: auto;
+}
+
+.Form_Heading {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Form_Name input{
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #6C757D;
+    padding: 8px 5px;
+    margin-top: 12px;
+}
+
+.Form_Email input{
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #6C757D;
+    padding: 8px 5px;
+    margin-top: 12px;
+}
+
+.Form_Subject input{
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #6C757D;
+    padding: 8px 5px;
+    margin-top: 12px;
+}
+
+.Form_Number{
+    width: 100%;
+    display: flex;
+    padding: 8px 5px;
+    margin-top: 12px;
+}
+
+.Form_Number label{
+    width: 30%;
+    font-size: 16px;
+    padding: 8px 5px;
+}
+
+.Form_Number input{
+    width: 70%;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #6C757D;
+    padding: 8px 5px;
+}
+
+.Form_line {
+    margin-top: 80px;
+}
+
+.Form_Submit input{
+    width: 100%;
+    height: 42px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid #6C757D;
+    border-radius: 15px;
+    padding: 8px 5px;
+    margin-top: 18px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .Herosec_Content {
+        width: 55%;
+    }
+    
+    .Herosec_Bothcontent {
+        position: absolute;
+        top: 60px;
+    }
+
+    .Herosec_Form {
+        width: 350px;
+        height: 700px;
+    }
+
+    .Form_Heading , .Form_Name , .Form_Email , .Form_Subject , .Form_Number {
+        margin-top: 13px;
+    }
+}
+
+
+@media screen and (min-width: 593px) and (max-width: 1023px) {
+    .Herosection_Hyderabad {
+        height: 1000px;
+    }
+    
+    .Herosec_Bothcontent {
+        height: 92%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .Herosec_Content {
+        width: 90%;
+        margin: auto;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .Content_Web {
+        font-size: 14px;
+    }
+
+    .Content_Blockchain {
+        font-size: 19px;
+    }
+
+    .Content_Webpara {
+        font-size: 15px;
+    }
+
+    .Herosec_Form {
+        width: 530px;
+        margin: auto;
+        padding-top: 0px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    
+    .Form_Head {
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    .Form_Head input {
+        font-size: 15px;
+    }
+
+    .Form_Heading , .Form_Name , .Form_Email , .Form_Subject , .Form_Number{
+        margin-top: 12px;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 592px) {
+    .Herosection_Hyderabad {
+        height: 1100px;
+    }
+
+    .Herosec_Bothcontent {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    .Herosec_Content {
+        width: 90%;
+        padding: 0px;
+        margin: 20px auto;
+    }
+
+    .Content_Web {
+        font-size: 9px;
+    }
+
+    .Content_Blockchain {
+        font-size: 12px;
+    }
+
+    .Content_Webpara {
+        font-size: 14px;
+    }
+ 
+    .Herosec_Form {
+        width: 90%;
+        height: 485px;
+        margin: 20px auto;
+        margin-bottom: 0%;
+    }
+
+    .Form_Head input {
+        font-size: 13px;
+    }
+
+    .Form_Head {
+        height: 100%;
+        font-size: 14px;
+        border-radius: 20px;
+        padding: 20px 15px;
+    }
+    
+    .Form_Number label {
+        width: 32%;
+    }
+
+    .Form_Heading , .Form_Name , .Form_Email , .Form_Subject , .From_Number {
+        margin-top: 2%;
+    }
+}

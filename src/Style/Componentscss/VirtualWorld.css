@@ -1,0 +1,122 @@
+.Virtual_Sec {
+    display: flex;
+    padding: 60px 0px;
+    margin: 20px 0px;
+}
+
+.Virtual_Content {
+    width: 50%;
+    padding: 100px 0px;
+    padding-left: 13%;
+}
+
+.Virtual_Heading {
+    color: #36BBC2;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.Virtual_Paraone {
+    color: #47576A;
+    line-height: 26px;
+    margin-top: 18px;
+}
+
+.Virtual_Paratwo {
+    color: #47576A;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+.Virtual_Image {
+    width: 50%;
+}
+
+.Virtual_Img {
+    width: 508px;
+    height: 508px;
+    background-image: url('../../Downloads/network.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: 100px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .Virtual_Content {
+        padding-left: 7%;
+    }
+
+    .Virtual_Img {
+        width: 460px;
+        height: 460px;
+        background-size: cover;
+        margin: auto;
+        margin-top: 60px;
+    }
+}
+
+
+@media screen and (min-width: 593px) and (max-width: 1023px) {
+    .Virtual_Sec {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .Virtual_Content {
+        width: 100%;
+        padding: 0px 8%;
+        margin-bottom: -10px;
+    }
+
+    .Virtual_Image {
+        width: 100%;
+        margin: auto;
+    }
+
+    .Virtual_Img{
+        width: 380px;
+        height: 380px;
+        background-size: cover;
+        margin: auto;
+    }
+
+    .Virtual_Heading {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 592px) {
+    .Virtual_Sec {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Virtual_Image {
+        width: 100%;
+        margin: auto;
+    }
+
+    .Virtual_Img {
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        margin: auto;
+    }
+
+    .Virtual_Content {
+        width: 90%;
+        margin: auto;
+        padding: 0px 10px; 
+    }
+
+    .Virtual_Heading {
+        font-size: 14px;
+    }
+
+    .Virtual_Paraone , .Virtual_Paratwo {
+        font-size: 14px;
+    }
+}
